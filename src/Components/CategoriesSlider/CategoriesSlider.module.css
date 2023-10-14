@@ -1,0 +1,23 @@
+
+.buttonMain {
+    border: var(--light-color) solid 2px;
+    background-color: var(--lightBlue-color);
+    color: var(--light-color);
+    text-shadow: 0px 1px 1px var(--dark-color);
+  
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    border-radius: .3rem;
+  }
+  
+  .buttonMain:hover {
+    border-radius: 1.4rem 0.4rem 1.7rem 0.7rem;
+    background-color: var(--lightBlue-color);
+    color: white;
+    border: transparent solid 2px;
+  }
+  
+  .buttonMain:hover i {
+    animation: shake 0.5s .5s linear;
+  }
+ 

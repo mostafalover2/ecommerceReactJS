@@ -1,0 +1,136 @@
+.BreadCrumb {
+    margin: 0;
+    width: 500px !important;
+}
+
+.tablewishList {
+    font-size: .8rem !important;
+    line-height: 21px;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0 !important;
+    color: #212529;
+}
+
+.tablewishList th {
+    padding: .9rem;
+    font-weight: 400;
+    font-size: .98rem;
+    color: #999;
+    text-align: center;
+    width: 100px;
+}
+
+.tablewishList tbody {
+    font-size: .8rem;
+    line-height: 21px;
+    color: #212529;
+    font-weight: 400;
+    padding: 0;
+}
+
+.tablewishList tbody td {
+    padding: 0 .9rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: fit-content;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow .35s ease, -webkit-box-shadow .35s ease;
+}
+
+.productName {
+    font-size: 1.1rem;
+    font-weight: 600 !important;
+    color: white ;
+    text-align: center;
+    letter-spacing: .15rem;
+    margin-bottom: .5rem;
+    padding: 0;
+    text-shadow:
+    -1px 0px 0px var(--primary-color),
+    1px 0px 0px var(--primary-color),
+    0px -1px 0px var(--primary-color),
+    0px 1px 0px var(--primary-color);
+}
+
+.productMedia {
+    padding: 5px;
+}
+
+.productImg img {
+    width: 100%;
+    max-width: 100px;
+    max-height: auto;
+    border-radius: 5%;
+}
+
+.priceCol {
+    color: white !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow:
+        -1px 0px 0px var(--primary-color),
+        1px 0px 0px var(--primary-color),
+        0px -1px 0px var(--primary-color),
+        0px 1px 0px var(--primary-color);
+}
+
+
+/* Media Queries for Responsive Design (adjust as needed) */
+@media (max-width: 767px) {
+    .productCol {
+        width: 50%;
+    }
+}
+
+.emptyWishList {
+    padding: 20px;
+    text-align: center;
+}
+
+.emptyWishList h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.emptyWishList p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.emptyWishList .btn:hover {
+    background-color: #0056b3;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
